@@ -22,8 +22,40 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body
+{
+background-color:#abb198; 
+ }
 
-/*
+
+#text
+{  
+padding-left:8.51%; 
+ }
+.nav-tabs { 
+    
+            background-color: rgb(200, 209, 170);
+
+  
+  }
+ .nav-tabs > li > a
+{ 
+margin-right:2px;
+line-height:0.2em;
+border:1px solid transperent;
+border-right:2px solid rgb(255,255,255);
+color:black;  
+} 
+a
+{ 
+color:black;
+ }
+
+
+.navbar-default { 
+                  border-color: rgb(248, 248, 248);
+}
+
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
@@ -51,7 +83,28 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
+h2
+{
+font-size:25px;
+border-bottom:1px dotted;
+ }
+#position
+{
+border-bottom:1px dotted;
+  }
+#container
+{ 
+padding-top:34px;
+ }
+.title
+{ 
+margin-top:-15px;
+ }
+.row
+{ 
+margin-left:75px;
+margin-right:75px;
+ }
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
@@ -241,6 +294,7 @@ textarea {
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
+
 
     /*
      * Don't show links for images, or javascript/internal links
