@@ -101,12 +101,28 @@ margin-top:-15px;
 { 
 margin-left:10%;
 margin-right:10%;
-max-width:84%;
+width:84%;
  }
-.container
-{ 
+.container{ 
 max-width:88%;
  }
+@media only screen
+and (min-width:320px)
+and (max-width:480px)
+{.row
+{ 
+margin-left:0px;
+margin-right:0px;
+ } 
+ }
+@media only screen
+and (min-width:1224px)
+{.row
+{ 
+margin-left:10%;
+margin-right:10%;
+ }  
+}
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
