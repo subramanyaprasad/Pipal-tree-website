@@ -67,7 +67,10 @@ color:black;
     background: #b3d4fc;
     text-shadow: none;
 }
-
+.lastitem
+{ 
+padding-left:3px;
+ }
 /*
  * A better looking default horizontal rule
  */
@@ -104,13 +107,10 @@ margin-left:10%;
 margin-right:10%;
 max-width:84%;
   } 
-@media only screen
-and(max-width:1224px)
-{ 
+ 
 .container{ 
-max-width:80%;            
-}
-}
+max-width:100%;            
+            }
 
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
